@@ -34,7 +34,7 @@ To resume training, update:
 ```yaml
 resume_checkpoint: checkpoints/model_epoch_3.pth
 
-## ▶️ How to Run
+▶️ How to Run
 - Open the notebook in Google Colab
 - Enable GPU:
          Runtime → Change runtime type → GPU (T4)
@@ -43,15 +43,15 @@ resume_checkpoint: checkpoints/model_epoch_3.pth
 - Checkpoints are saved after every epoch
 - Metrics are logged in logs/metrics.csv
 
-## 💾 Checkpointing
+💾 Checkpointing
 - Model checkpoints are saved after each epoch
 - Training can be resumed from the last saved checkpoint using config.yaml
 
-## 📊 Metrics Logging
+📊 Metrics Logging
 - Training loss and accuracy are stored in metrics.csv
 - This file can be used for later analysis or plotting
 
-## ✅ Output
+✅ Output
 - Console output showing epoch-wise loss and accuracy
 - Saved model checkpoints
 - CSV file containing training metrics
