@@ -1,0 +1,17 @@
+project:
+  name: cifar10_training
+
+paths:
+  checkpoint_dir: checkpoints
+  log_dir: logs
+  resume_checkpoint: null
+
+training:
+  epochs: 10
+  batch_size: 64
+  learning_rate: 0.001
+
+model:
+  num_classes: 10
+
+device: cuda
