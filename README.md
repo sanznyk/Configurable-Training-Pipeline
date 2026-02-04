@@ -14,11 +14,15 @@ The pipeline supports checkpoint saving and resuming and logs training metrics t
 
 ## 📂 Project Structure
 ├── Configurable_Training_Pipeline.ipynb
+
 ├── config.yaml
+
 ├── checkpoints/
 │   └── model_epoch_X.pth
+
 ├── logs/
 │   └── metrics.csv
+
 └── README.md
 
 ## ⚙️ Configuration File (config.yaml)
